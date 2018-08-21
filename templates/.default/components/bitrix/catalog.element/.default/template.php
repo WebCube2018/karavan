@@ -477,7 +477,7 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
                                             <?}?>
                                         </div>
 
-                                <?
+                                <?//Проверка на существование
                                 if($arResult['DISPLAY_PROPERTIES']['OLD_PRICE']['VALUE']){
                                     $oldPriceCalc = 1;
                                 } else {
